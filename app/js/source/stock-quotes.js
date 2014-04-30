@@ -18,6 +18,7 @@
       getQuote(quote);
     });
     $('#input').val('');
+    $('#input').focus();
   }
 
   function getQuote(quote){
@@ -47,7 +48,7 @@
     'dataProvider': [],
     'valueAxes': [{
         'position': 'left',
-        'title': '$'
+        'title': 'Price/Share'
     }],
     'graphs': [{
         'balloonText': '[[category]]: <b>[[value]]</b>',

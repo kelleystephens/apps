@@ -39,7 +39,7 @@
 	     'theme': 'chalk',
        'titles': [{
           'text': 'Stock Totals',
-          'size': 18
+          'size': 30
         }],
       'dataProvider': [],
       'valueField': 'quote',
