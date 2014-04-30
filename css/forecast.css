@@ -1,0 +1,36 @@
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+body {
+  background-image: url('../media/clouds.jpg');
+}
+#controls {
+  margin: 10px;
+}
+h1 {
+  font-family: 'Righteous', 'cursive';
+  text-shadow: 3px 3px 0px #243f47;
+  color: #b5a591;
+  font-size: 40px;
+}
+.holder {
+  display: inline-block;
+  width: 75px;
+  height: 139px;
+  margin: 10px;
+}
+.day {
+  text-align: center;
+  font-family: 'Righteous', 'cursive';
+  color: #243f47;
+}
+img {
+  background-color: rgba(37, 67, 72, 0.62);
+  border-radius: 2px;
+  width: 75px;
+  height: 75px;
+}
+.text {
+  text-align: center;
+  font-family: 'Righteous', 'cursive';
+  color: #243f47;
+  width: 70px;
+}
